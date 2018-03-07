@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Logo_with_Lettering" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" width="258.3px" height="57.1px" viewBox="0 0 258.3 57.1" enable-background="new 0 0 258.3 57.1"
+	 xml:space="preserve">
+<path fill="#EDA822" d="M57.1,28.5C57.1,44.3,44.3,57,28.6,57C12.8,57.1,0,44.3,0,28.5C0,12.8,12.8,0,28.5,0
+	C44.3,0,57.1,12.8,57.1,28.5"/>
+<path fill="#1D1D1B" d="M50.8,28.5c0,12.3-9.9,22.2-22.2,22.2c-12.3,0-22.2-9.9-22.2-22.2S16.3,6.3,28.6,6.3
+	C40.8,6.3,50.8,16.3,50.8,28.5"/>
+<path fill="#EDA822" d="M36.5,32.3c-0.4,0-0.8-0.4-0.8-0.8c0-0.4,0.4-0.8,0.8-0.8c0.5,0,0.9,0.398,0.9,0.8
+	C37.3,31.9,37,32.3,36.5,32.3z"/>
+<rect x="65.65" y="17.05" fill="none" width="112.95" height="33.65"/>
+<text transform="matrix(1 0 0 1 65.6499 37.8879)" fill="#EDA724" font-family="'SimHei'" font-size="25">ChipCoin</text>
+<rect x="22.225" y="15.05" fill="none" width="24.75" height="30"/>
+<text transform="matrix(1 0 0 1 22.2246 39.1125)" fill="#EDA724" font-family="'SimHei'" font-size="28">C</text>
+<rect x="177.65" y="17.05" fill="none" width="91" height="57"/>
+<text transform="matrix(1 0 0 1 177.6499 38.5344)" fill="#FFFFFF" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" font-family="'SimHei'" font-size="25">Wallet</text>
+</svg>

@@ -1,0 +1,13 @@
+#!/bin/bash
+set -e
+
+OTOOL=${HOST}-otool INSTALLNAMETOOL=${HOST}-install_name_tool STRIP=${HOST}-strip contrib/macdeploy/macdeployqtplus chipcoin.app
+mkdir -p dist/.background
+install contrib/macdeploy/background.png dist/.background
+install contrib/macdeploy/DS_Store dist/.DS_Store
+install src/qt/res/icons/chipcoin.icns dist/.VolumeIcon.icns
+cd dist
+ln -sf /Applications Applications
+cd ..
+genisoimage -no-cache-inodes -l -probe -V "chipcoin" -no-pad -r -apple -o chipcoin.tmp.dmg dist
+dmg dmg chipcoin.tmp.dmg chipcoin.macosx.dmg

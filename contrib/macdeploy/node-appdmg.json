@@ -1,0 +1,12 @@
+//npm install -g appdmg
+//appdmg node-appdmg.json chipcoin.dmg
+//Mount .dmg and copy /Volumes/chipcoin/.DS_Store to ./DS_Store
+{
+  "title": "chipcoin",
+  "icon": "../../src/qt/res/icons/chipcoin.icns",
+  "background": "background.png",
+  "contents": [
+    { "x": 370, "y": 156, "type": "link", "path": "/Applications" },
+    { "x": 128, "y": 156, "type": "file", "path": "../../chipcoin.app" }
+  ]
+}
